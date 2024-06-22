@@ -21,4 +21,9 @@
         ・地面と建物の判定
         ・データ削減
 
+    実行方法：
+        1. g++ -Wall -o main main.cpp
+        2. ./main 入力ファイル   (jimentest.txtが作られる)
+        3. python delaunay.py   (vrml.wrlが作られる)
+        4. vrml.wrlをview3dsceneでvrml化
 
